@@ -1,0 +1,7 @@
+tomcat:
+  build: .
+  ports:
+    - "8888:8080"
+  volumes:
+    - ./web:/usr/local/tomcat/webapps
+
